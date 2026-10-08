@@ -20,7 +20,7 @@ Based in Katowice, Poland.
 
 | Project | What it does | Links |
 | --- | --- | --- |
-| **AI Resume Tailoring** | Matches job descriptions against verified profile facts and generates PDF/DOCX resumes using FastAPI and n8n. | [Code](https://github.com/Rafalbanas/ai-resume-tailoring-platform) |
+| **AI Resume Tailoring** | Matches job descriptions against verified profile facts and generates PDF/DOCX resumes using FastAPI and n8n. | [Code](https://github.com/Rafalbanas/ai-resume-tailoring-platform) · [Demo](https://cv.banas.dev/) |
 | **Plates — ALPR** | Detects license plates and reads their text using local inference on a VPS. Includes a separate detector training pipeline. | [Code](https://github.com/Rafalbanas/automatic_plate_number_recognition) · [Demo](https://plates.banas.dev) |
 | **Cycling Analytics** | Research project exploring FTP-label estimation from cycling telemetry, with regression experiments and a web presentation of results. | [Code](https://github.com/Rafalbanas/Cycling) · [Demo](https://cycling.banas.dev) |
 | **Personal Portfolio** | Bilingual portfolio with project links, weather data and air-quality readings for Katowice. | [Code](https://github.com/Rafalbanas/banasdev) · [Website](https://banas.dev) |

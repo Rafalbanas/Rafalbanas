@@ -1,42 +1,90 @@
-# Hi, I'm Rafał Banaś
+# Hi, I'm Rafał 👋
 
-I'm a Technical Support Engineer based in Katowice, Poland.
-I work with application support, troubleshooting and IT systems, and build
-personal projects around Python, automation, data analysis and AI.
+**Technical Support Engineer | IT Infrastructure · Linux · Automation**
 
-[banas.dev — portfolio & projects](https://banas.dev) · [GitHub repositories](https://github.com/Rafalbanas?tab=repositories)
+I'm an IT professional based in Katowice, Poland, with 3+ years of experience in technical support, infrastructure administration, and troubleshooting.
 
-## What I work with
+My professional background includes application support, Windows environments, networking, and incident investigation. Beyond my day-to-day work, I develop and maintain self-hosted applications, automate workflows, and experiment with Python, AI, and infrastructure technologies.
 
-- **IT & application support:** Windows Server, Microsoft 365, Active Directory, troubleshooting
-- **Automation & scripting:** PowerShell, Python, Bash, n8n
-- **Web applications:** FastAPI, HTML, CSS, JavaScript
-- **Data & machine learning projects:** pandas, scikit-learn, XGBoost, SHAP, computer vision
-- **Self-hosting & deployment:** Linux VPS, Docker, Nginx, systemd
+I hold an MSc in Computer Science, specializing in Intelligent Systems Programming.
 
-## Selected projects
+🌐 **[Portfolio](https://banas.dev/)** · **[GitHub Projects](https://github.com/Rafalbanas?tab=repositories)**
 
-| Project | What it does | Links |
-| --- | --- | --- |
-| **banas.dev — portfolio & weather dashboard** | Bilingual PL/EN portfolio with light/dark themes, project links and a Katowice weather dashboard. A Python collector combines Open-Meteo temperature and precipitation forecasts with GIOŚ air-quality readings and historical charts. | [Code: banasdev](https://github.com/Rafalbanas/banasdev) · [Website](https://banas.dev) |
-| **CVTailor — AI Resume Tailoring** | FastAPI application that analyzes a supplied job posting against verified profile facts and generates PDF/DOCX resumes. Uses Ollama or Gemini, optional n8n integration, and Python validation of generated claims. Self-hosted for personal use; the running application requires login. | [Code](https://github.com/Rafalbanas/ai-resume-tailoring-platform) · [Application — login required](https://cv.banas.dev/) |
-| **Plates — ALPR** | Web demonstrator that detects license plates and reads their text using FastALPR and ONNX models running locally on a VPS. The repository also includes a separate detector training and evaluation pipeline. | [Code](https://github.com/Rafalbanas/automatic_plate_number_recognition) · [Demo](https://plates.banas.dev) |
-| **Cycling — telemetry & ML research** | Master's thesis project with an ETL pipeline for GoldenCheetah OpenData, regression experiments and SHAP analysis. The PL/EN web application presents results, comparisons and the thesis PDF, plus a calculator for the research FTP label. | [Code](https://github.com/Rafalbanas/Cycling) · [Website](https://cycling.banas.dev) |
+## 🛠️ Technical Skills
 
-The main repository for my portfolio is
-[**Rafalbanas/banasdev**](https://github.com/Rafalbanas/banasdev).
-It includes the history of the earlier `cv-portfolio` repository, preserved in
-[the repository consolidation](https://github.com/Rafalbanas/banasdev/pull/2).
+| Area | Technologies |
+|---|---|
+| **Infrastructure & Support** | Windows Server, Linux, Active Directory, Microsoft 365, TCP/IP, DNS, VPN |
+| **Linux & Deployment** | Docker, Docker Compose, Nginx, systemd, SSH, GitHub Actions, CI/CD |
+| **Programming & Automation** | Python, PowerShell, Bash, FastAPI, REST APIs, n8n |
+| **AI & Machine Learning** | Ollama, LLM integration, pandas, scikit-learn, XGBoost, SHAP |
+| **Development Tools** | Git, GitHub, VS Code, OpenCode |
 
-The Cycling calculator uses the research heuristic `0.95 × 20-minute power`;
-it does not run a trained model or measure a physiological threshold.
+*My experience spans professional IT operations and personal software/infrastructure projects. Proficiency varies by technology.*
 
-## Current focus
+## 🚀 Featured Projects
 
-- Improving CVTailor's job analysis, fact validation and document generation.
-- Developing the weather and air-quality dashboard on banas.dev.
-- Maintaining my self-hosted applications and improving testing and deployment.
-- Exploring telemetry, machine learning and practical automation.
+### [CVTailor — AI Resume Tailoring Platform](https://github.com/Rafalbanas/ai-resume-tailoring-platform)
 
-I use AI-assisted development tools alongside documentation and testing.
-Project READMEs describe implementation details and known limitations.
+A self-hosted FastAPI application for analyzing job requirements and generating tailored resumes from verified candidate information.
+
+- Integrates local Ollama models and Google Gemini.
+- Uses evidence retrieval and Python-based fact validation to reduce unsupported AI-generated claims.
+- Generates PDF, DOCX, and HTML resumes.
+- Uses Docker, GitHub Actions, automated testing, and container-based deployment workflows.
+
+**Stack:** Python · FastAPI · Ollama · Gemini · Docker · GitHub Actions · SQLite
+
+[Source Code](https://github.com/Rafalbanas/ai-resume-tailoring-platform) · [Private Application](https://cv.banas.dev/)
+
+### [banas.dev — Portfolio & Live Data Dashboard](https://github.com/Rafalbanas/banasdev)
+
+My personal portfolio and a lightweight dashboard presenting weather and air-quality data for Katowice.
+
+- Integrates Open-Meteo forecasts and GIOŚ air-quality data.
+- Collects and presents historical readings.
+- Supports Polish and English, responsive layouts, and light/dark themes.
+- Uses automated testing and CI/CD for deployment.
+
+[Source Code](https://github.com/Rafalbanas/banasdev) · [Live Website](https://banas.dev/)
+
+### [Plates — Automatic License Plate Recognition](https://github.com/Rafalbanas/automatic_plate_number_recognition)
+
+A web-based ALPR demonstrator running ONNX models on a self-hosted VPS.
+
+- Detects license plates and extracts text using FastALPR.
+- Includes a separate detector training and evaluation pipeline.
+- Demonstrates model integration and resource-conscious deployment.
+
+[Source Code](https://github.com/Rafalbanas/automatic_plate_number_recognition) · [Live Demo](https://plates.banas.dev/)
+
+### [Cycling — Machine Learning & Telemetry Analysis](https://github.com/Rafalbanas/Cycling)
+
+My MSc research project focused on estimating cycling Functional Threshold Power (FTP) using machine learning and telemetry data.
+
+- Built an ETL workflow for GoldenCheetah OpenData.
+- Evaluated regression models and analyzed predictions using SHAP.
+- Published an interactive research dashboard and thesis materials.
+
+[Source Code](https://github.com/Rafalbanas/Cycling) · [Research Website](https://cycling.banas.dev/)
+
+## 🖥️ Homelab & Self-Hosting
+
+I maintain a personal Linux-based environment for experimenting with infrastructure, automation, and local AI.
+
+My work includes managing Linux services, Docker deployments, reverse proxies, SSH access, and self-hosted applications. I also experiment with local LLM inference using Ollama and GPU acceleration.
+
+The homelab helps me explore technologies beyond my professional support responsibilities.
+
+## 📌 Currently Exploring
+
+- Linux infrastructure, containers, and CI/CD workflows.
+- Automation, monitoring, and infrastructure tooling.
+- Local LLM integration and AI-assisted development.
+- Improving reliability, testing, and deployment of personal applications.
+
+---
+
+**Development approach:** I use AI-assisted coding tools, including OpenCode, alongside documentation, testing, and manual verification. My repositories document their architecture, implementation details, and known limitations.
+
+**More about my work:** [banas.dev](https://banas.dev/)
